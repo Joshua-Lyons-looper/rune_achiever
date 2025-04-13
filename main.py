@@ -16,6 +16,7 @@ def main():
     
     character = Player(character_name, iron, hardcore)
     character.populate_skills()
+    character.populate_quests()
 
 
 
