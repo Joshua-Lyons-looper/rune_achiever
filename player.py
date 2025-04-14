@@ -19,6 +19,12 @@ class Player:
         self.quests = []
         self.achievements = {}
     
+    def getPlayerSkills(self):
+        return self.skills
+    
+    def getPlayerQuests(self):
+        return self.quests
+    
 
     def populate_skills(self):
         name = self.name
@@ -31,10 +37,9 @@ class Player:
             for i in range(0,30):
                 parts = lines[i].split(",")
                 if len(parts) == 3:
-                    level = parts[1]
+                    level = int(parts[1])
                     skill = skill_order[i]
                     self.skills[skill] = level
-            print(self.skills)
         
         else: print(f"Error connecting to Runescape's API: {response.status}")
     
@@ -52,8 +57,6 @@ class Player:
                 }
                 for quest in quest_data["quests"]
             ]
-            for quest in self.quests:
-                print(quest)
         else: print(f"Error connecting to Runescape's API: {response.status}")
                 
 

@@ -1,0 +1,47 @@
+{
+  "Easy Lumbridge": {
+    "skill requirements": {
+      "Mining" : 10,
+      "Fishing": 25,
+      "Smithing": 20,
+      "Runecrafting": 5,
+      "Crafting": 4
+    },
+    "quest_requirements": [
+      "The Restless Ghost"
+    ]
+  },
+  "Medium Lumbridge": {
+  "skill requirements": {
+    "Mining" : 10,
+    "Fishing": 30,
+    "Smithing": 20,
+    "Magic": 31,
+    "Crafting": 16,
+    "Firemaking": 30,
+    "Cooking": 40,
+    "Woodcutting": 20
+  },
+  "quest_requirements": [
+    "Cook's Assistant",
+    "Dragon Slayer"
+  ]
+  },
+  "Hard Lumbridge": {
+  "skill requirements": {
+    "Mining" : 10,
+    "Fishing": 30,
+    "Magic": 59,
+    "Crafting": 50,
+    "Firemaking": 60,
+    "Cooking": 50,
+    "Runecrafting": 57,
+    "Prayer": 45,
+    "Smithing": 40
+  },
+  "quest_requirements": [
+    "Cook's Assistant",
+    "Dragon Slayer"
+  ]
+  }
+}
